@@ -10,7 +10,7 @@ import Tenzies from "./Pages/Tenzies/Tenzies";
 function Components() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/info-site" element={<InfoSite />} />
       <Route path="/airbnb" element={<Airbnb />} />
       <Route path="/meme-generator" element={<MemePage />} />
