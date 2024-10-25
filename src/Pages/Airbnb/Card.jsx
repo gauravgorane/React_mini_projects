@@ -2,19 +2,19 @@ import styles from "./styles/card.module.css";
 import star from "./assets/Star.jpg";
 
 export default function Card(props) {
-
-  let badgeText
-    if (props.openSpots === 0) {
-        badgeText = "SOLD OUT"
-    } else if (props.location === "Online") {
-        badgeText = "ONLINE"
-    }
+  let badgeText;
+  if (props.openSpots === 0) {
+    badgeText = "SOLD OUT";
+  } else if (props.location === "Online") {
+    badgeText = "ONLINE";
+  }
 
   return (
     <div className={styles.card}>
       {badgeText && <div className={styles.cardBadge}>{badgeText}</div>}
       <img
-        src={`./src/Pages/Airbnb/assets/${props.coverImg}`}
+        // src={`./src/Pages/Airbnb/assets/${props.coverImg}`}
+        src={`./assets/${props.coverImg}`}
         alt="Course avatar thumbnails"
         className={styles.avatar}
       />
