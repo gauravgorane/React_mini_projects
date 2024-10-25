@@ -14,7 +14,7 @@ export default function Card(props) {
     <div className={styles.card}>
       {badgeText && <div className={styles.cardBadge}>{badgeText}</div>}
       <img
-        src={`./public/${props.coverImg}`}
+        src={`./${props.coverImg}`}
         alt="Course avatar thumbnails"
         className={styles.avatar}
       />
