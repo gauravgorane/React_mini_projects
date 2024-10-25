@@ -14,7 +14,7 @@ export default function Card(props) {
     <div className={styles.card}>
       {badgeText && <div className={styles.cardBadge}>{badgeText}</div>}
       <img
-        src={`./src/Pages/Airbnb/assets/${props.coverImg}`}
+        src={`./public/${props.coverImg}`}
         alt="Course avatar thumbnails"
         className={styles.avatar}
       />
