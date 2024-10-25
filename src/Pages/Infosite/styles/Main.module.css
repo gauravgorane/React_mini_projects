@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.infoMain {
+    padding: 59px 27px;
+    background-image: url("../assets/react-icon-light.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: Inter, "sans-serif";
+    background-color: white;
+    color: #2B283A;
+    flex: 1 1 auto;
+}
+
+.dark {
+    background-image: url("../assets/react-icon-dark.png");
+    background-color: #282D35;
+    color: white;
+}
+
+.mainTitle {
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.mainFacts {
+    margin-top: 46px;
+    margin-left: 24px;
+    max-width: 400px;
+}
+
+.mainFacts>li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.mainFacts>li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}

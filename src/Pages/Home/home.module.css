@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 3rem;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    padding: 0 10px;
+    font-size: 1.6rem;
+    text-decoration: none;
+}

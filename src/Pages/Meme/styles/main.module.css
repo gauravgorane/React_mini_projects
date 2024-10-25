@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.memePage {
+    font-family: "Karla", sans-serif;
+    padding: 36px 0;
+    max-width: 768px;
+    width: 90%;
+    margin: auto;
+}
+
+.form {
+    font-family: inherit;
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap: 33px;
+}
+
+.labels {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    width: 100%;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(209, 213, 219, 1);
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1rem;
+    grid-column: 1/-1;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.memeDiv {
+    display: grid;
+    place-content: center;
+    margin-top: 32px;
+}
+
+.memeImage {
+    position: relative;
+}
+
+.memeImage img {
+    max-width: 100%;
+    display: block;
+}
+
+.memeText {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 0 5px #000;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
